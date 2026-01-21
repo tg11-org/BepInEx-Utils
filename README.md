@@ -20,3 +20,5 @@ It does not add gameplay features on its own.
 ## Changelog
 ### 0.0.1
 - Initial release
+### 0.0.2
+- Added functionality

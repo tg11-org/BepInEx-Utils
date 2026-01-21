@@ -1,0 +1,9 @@
+{
+  "name": "TG11_utils",
+  "version_number": "0.0.1",
+  "website_url": "https://github.com/tg11-org/",
+  "description": "Shared utility plugin for Crime Simulator mods by TG11.",
+  "dependencies": [
+    "BepInEx-BepInExPack_Mono-5.4.21"
+  ]
+}

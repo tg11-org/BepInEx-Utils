@@ -1,6 +1,6 @@
 # TG11 Utils
 
-Shared utility plugin for Crime Simulator mods.
+Shared utility plugin for BepInEx, currently only for Crime Simulator mods.
 
 This package provides common helpers, logging utilities, and shared infrastructure
 used by other TG11 mods.

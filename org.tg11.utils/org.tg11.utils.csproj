@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>org.tg11.utils</AssemblyName>
+    <RootNamespace>org.TG11.utils</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <!-- BepInEx -->
+  <Reference Include="BepInEx">
+    <HintPath>..\BepInEx\BepInEx.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+
+  <Reference Include="0Harmony">
+    <HintPath>..\BepInEx\0Harmony.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+
+  <!-- Unity -->
+  <Reference Include="UnityEngine">
+    <HintPath>..\Unity\UnityEngine.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+
+  <Reference Include="UnityEngine.CoreModule">
+    <HintPath>..\Unity\UnityEngine.CoreModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+
+  <Reference Include="UnityEngine.InputLegacyModule">
+    <HintPath>..\Unity\UnityEngine.InputLegacyModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  
+  <Reference Include="UnityEngine.IMGUIModule">
+    <HintPath>..\Unity\UnityEngine.IMGUIModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  
+  <Reference Include="UnityEngine.UI">
+    <HintPath>..\Unity\UnityEngine.UI.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  
+  <Reference Include="Rewired_Core">
+    <HintPath>..\Unity\Rewired_Core.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  
+</ItemGroup>
+
+
+</Project>
